@@ -1,0 +1,98 @@
+.crp-list {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.crp-list-item .crp-list-item-image {
+    margin: 0 auto;
+}
+.crp-list-item.crp-list-item-has-image {
+    display: flex;
+    float: left;
+    width: calc(100%/4);
+    height: 100%;
+    padding: 7px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+.crp-list-item-title {
+    width: 100%;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 0 0 7px 7px;
+    line-height: 20px;
+    background: #f5f1f1;
+    margin-bottom: 5px;
+}
+.crp-list-item-image img {
+    border-radius: 7px 7px 0 0;
+}
+.crp-list-item-title a {
+    color: black;
+}
+@media only screen and (max-width: 600px){
+.crp-list-item.crp-list-item-has-image {
+    width: calc(100%/2);
+  }
+}
+.age-gate {
+    background-color: #1b2026;
+    box-shadow: 0 0 40px 5px rgba(255,255,255,.15);
+    border: 1px solid #2e2e2e;
+    border-radius: 7px;
+	  padding: var(--ag-form-padding,22px 33px);
+}
+
+.age-gate__heading-title.age-gate__heading-title--logo {
+	  max-width: var(--ag-logo-max-width,80%);
+}
+
+.age-gate__headline {
+    color: white;
+}
+
+.age-gate__subheadline {
+    color: #c9c9c9;
+}
+
+.age-gate__challenge {
+	  color: white;
+    margin-bottom: 14px;
+}
+
+.age-gate__submit.age-gate__submit--yes, .age-gate__submit.age-gate__submit--no {
+	  background-color: #ffc002;
+    color: #010101;
+	  font-size: var(--ag-button-size,1.2rem);
+}
+
+.ai-viewports                 {--ai: 1;}
+.ai-viewport-3                { display: none !important;}
+.ai-viewport-2                { display: none !important;}
+.ai-viewport-1                { display: inherit !important;}
+.ai-viewport-0                { display: none !important;}
+@media (min-width: 768px) and (max-width: 959px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-2                { display: inherit !important;}
+}
+@media (max-width: 767px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-3                { display: inherit !important;}
+}
+.ai-rotate {position: relative;}
+.ai-rotate-hidden {visibility: hidden;}
+.ai-rotate-hidden-2 {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.ai-list-data, .ai-ip-data, .ai-filter-check, .ai-fallback, .ai-list-block, .ai-list-block-ip, .ai-list-block-filter {visibility: hidden; position: absolute; width: 50%; height: 1px; top: -1000px; z-index: -9999; margin: 0px!important;}
+.ai-list-data, .ai-ip-data, .ai-filter-check, .ai-fallback {min-width: 1px;}
+.ai-close {position: relative;}
+.ai-close-button {position: absolute; top: -11px; right: -11px; width: 24px; height: 24px; background: url(https://chochox.com/wp-content/plugins/ad-inserter-pro/css/images/close-button.png) no-repeat center center; cursor: pointer; z-index: 9; display: none;}
+.ai-close-show {display: block;}
+.ai-close-left {right: unset; left: -11px;}
+.ai-close-bottom {top: unset; bottom: -10px;}
+.ai-close-none {visibility: hidden;}
+.ai-close-fit {width: fit-content; width: -moz-fit-content;}
