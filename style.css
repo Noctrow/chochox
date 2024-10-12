@@ -1506,7 +1506,7 @@ form.search-form button[type=submit] span {
     float: left;
     width: 22px;
     height: 22px;
-    background: url(/wp-content/images/sprites/sprite.png) no-repeat 0px -22px;
+    background: url(images/sprite.png) no-repeat 0px -22px;
     background-size: 80px;
 }
 
