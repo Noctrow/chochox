@@ -321,7 +321,7 @@ img.light {
 }
 	
 .dark-mode button.search-button {
-    background: url(/wp-content/themes/chochox/assets/img/search_2.svg) #282b35 no-repeat 4px!important;
+    background: url(images/search.svg) #282b35 no-repeat 4px!important;
     right: 4px!important;
 }
 }
@@ -650,7 +650,7 @@ footer.main .fbox .fmenu ul li:before {
     width: 16px;
     height: 13px;
     margin-right: 5px;
-    background: url(/wp-content/themes/chochox/assets/img/arrow.svg) no-repeat;
+    background: url(images/arrow.svg) no-repeat;
     float: left;
 }
 
@@ -740,7 +740,7 @@ aside#custom_html-2 {
     margin-right: 5px;
     margin-left: 5px;
     right: 12px;
-    background: url(/wp-content/themes/chochox/assets/img/arrow_black.svg) no-repeat;
+    background: url(images/arrow_black.svg) no-repeat;
 }
 
 .head-main-nav ul.main-header li a:before {
@@ -787,7 +787,7 @@ button.aresp.search-resp {
     float: right;
     width: 28px;
     height: 28px;
-    background: url(/wp-content/themes/chochox/assets/img/search.svg) no-repeat;
+    background: url(images/search_0.svg) no-repeat;
 	border:0;
 }
 
@@ -795,7 +795,7 @@ button.aresp.nav-resp {
     display: block;
     width: 28px;
     height: 28px;
-    background: url(/wp-content/themes/chochox/assets/img/menu.svg) no-repeat -1px;
+    background: url(images/menu.svg) no-repeat -1px;
     background-size: 30px;
 	border:0;
 }
@@ -804,7 +804,7 @@ button.aresp.nav-resp.active, button.aresp.search-resp.active {
     display: block;
     width: 28px;
     height: 28px;
-    background: url(/wp-content/themes/chochox/assets/img/cross.svg) no-repeat 2px;
+    background: url(images/cross.svg) no-repeat 2px;
     background-size: 24px;
 	border:0;
 }
@@ -829,7 +829,7 @@ form.form-resp-ab input[type=text] {
 button.search-button {
     width: 44px;
     height: 37px;
-    background: url(/wp-content/themes/chochox/assets/img/search_2.svg) #282b35 no-repeat 7px;
+    background: url(images/search.svg) #282b35 no-repeat 7px;
     background-size: 32px;
     color: white;
     border: 0;
@@ -928,7 +928,7 @@ button.search-button {
     width: 24px;
     height: 24px;
     content: "";
-    background: url(//img2.chochox.com/images2/2019/02/08/profile-icone.png) no-repeat;
+    background: url(//noimage) no-repeat;
     background-size: 24px;
     margin-right: 5px;
     float: left;
@@ -1054,7 +1054,7 @@ em.text-red {
     width: 24px;
     height: 24px;
     content: "";
-    background: url(//img2.chochox.com/images2/2019/02/08/comment-icon.png) no-repeat;
+    background: url(//noimage) no-repeat;
     background-size: 24px;
     margin-right: 5px;
     float: left;
@@ -1638,7 +1638,7 @@ footer.main .fbox .fmenu ul li.current-menu-item a {
     }
 	
     button.search-button {
-        background: url(/wp-content/themes/chochox/assets/img/search_black.svg) no-repeat 4px;
+        background: url(images/search_black.svg) no-repeat 4px;
         top: 8px;
         right: 4px;
     }
